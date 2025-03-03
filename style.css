@@ -1,0 +1,67 @@
+/* Apply light background color */
+body {
+    background-color: #f6f8f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container to center the content */
+.container {
+    width: 80%;
+    background: rgb(169, 221, 231);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin: auto;
+}
+
+/* Header section styling */
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style for sections */
+section {
+    margin-top: 20px;
+}
+
+/* Bold and Underline all headings */
+h2 {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Style horizontal line */
+hr {
+    border: 1px solid gray;
+}
+
+/* Style for preformatted text */
+pre {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Style lists */
+ul {
+    padding-left: 20px;
+}
